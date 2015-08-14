@@ -38,18 +38,20 @@ public class Ventana extends javax.swing.JFrame {
                     double lx= coorde.getX();
                     double ly= coorde.getY();
                     
-                    if(a<300||b==0){
-                    jLabel1.setLocation(a,0);
+                    //if(a<300||b==0){
+                    jLabel1.setLocation(a,b);
                     jLabel1.setText("las coor x "+lx+"en y "+ly);
                     a++;
+                    /*
                             if(b<180||a==300)
                                 {
                             jLabel1.setLocation(a,b);
                             jLabel1.setText("las coor x "+lx+"en y "+ly);
+                     */
                             b++;
-                            }
-                    }
-                    
+                                //}
+                    //}
+                   
                     System.out.println("Prueba");
                     
         
